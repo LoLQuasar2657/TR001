@@ -1,0 +1,25 @@
+name = input('Enter your name : ');
+print ('Welcome to Tushar\'s calculator, ' + name + '!')
+print ('This is the basic operation calculator.')
+num1 = input('Enter the first number : ');
+num2 = input('Enter the second number : ');
+print('Here are the results for you!');
+sum = int(num1) + int(num2)
+diff = int(num1) - int(num2)
+pro = int(num1) * int(num2)
+quo = int(num1) / int(num2)
+print('The sum is ' + str(sum))
+print('The difference is ' + str(diff))
+print('The product is ' + str(pro))
+print('The quotient is ' + str(quo))
+print('Here is the power calculator')
+num3 = input('Enter the number ')
+sqr = pow(int(num3) , 2)
+cub = pow(int(num3) , 3)
+sqrt = pow(int(num3) , 1/2)
+cubrt = pow(int(num3) , 1/3)
+print('The square is ' + str(sqr))
+print('The cube is ' + str(cub))
+print('The square root is ' + str(sqrt))
+print('The cube root is ' + str(cubrt))
+print('That was all. Thank You.')
